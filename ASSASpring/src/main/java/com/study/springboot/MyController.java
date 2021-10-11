@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class MyController {
 
 	@RequestMapping("/")
-	public @ResponseBody String root() throws Exception {
+	public @ResponseBody String root() throws Exception { 
 		return "Form 데이터 전달받아 사용하기";
 	}
 	
